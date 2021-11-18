@@ -1,1 +1,1 @@
-# Game of Tenzies created with Create React App
+# Game of Tenzi created with Create React App
