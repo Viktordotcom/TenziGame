@@ -23,3 +23,10 @@ body {
   grid-template-rows: repeat(auto, 1fr);
   row-gap: 15px;
 }
+
+.confetti {
+  position: fixed;
+  left: 50%;
+  transform: translate(-35%, -50%);
+  width: 100vw !important;
+}

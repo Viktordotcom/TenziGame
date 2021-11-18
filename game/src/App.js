@@ -3,6 +3,7 @@ import "./components/styles/App.css";
 import Header from "./components/Header";
 import Main from "./components/Main";
 import data from "./data";
+import Confetti from "react-confetti";
 
 function App() {
   const [dices, setDices] = React.useState(data);
@@ -51,6 +52,7 @@ function App() {
 
   return (
     <div className="App">
+      {isGameOver && <Confetti className="confetti" />}
       <Header />
       <Main
         dices={dices}
