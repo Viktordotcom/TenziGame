@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./components/styles/App.css";
 import Header from "./components/Header";
 import Main from "./components/Main";
 import data from "./data";
@@ -7,22 +7,12 @@ import data from "./data";
 function App() {
   const [dices, setDices] = React.useState(data);
 
-  // const [currentDice, setCurrentDice] = React.useState(
-  //   (dices[0] && dices[0].id) || ""
-  // );
-
   const [isGameOver, setIsGameOver] = React.useState(false);
 
-  // function findCurrentDice() {
-  //   return (
-  //     dices.find((dice) => {
-  //       return dice.id === currentDice;
-  //     }) || dices[0]
-  //   );
-  // }
   React.useEffect(() => {
     onGameOver();
   }, [dices]);
+
   function freezeDice(event, diceId) {
     event.stopPropagation();
     return setDices((oldDices) => {
@@ -45,14 +35,10 @@ function App() {
   }
 
   function onGameOver() {
-    dices.every((dice) => dice.value === dices[0].value)
-      ? setIsGameOver(true)
-      : console.log("Not every value matches");
-    // some visual updates too
+    dices.every((dice) => dice.value === dices[0].value) && setIsGameOver(true);
   }
 
   function newGame() {
-    // revert data back and visual updates to start point
     setDices((dices) => {
       return dices.map((dice) => ({
         ...dice,

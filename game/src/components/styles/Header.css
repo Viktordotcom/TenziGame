@@ -1,0 +1,13 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+nav p {
+  width: 300px;
+  text-align: center;
+  font-size: 1.15rem;
+  color: #4a4e74;
+}
