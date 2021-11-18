@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/TenziGame/static/css/main.47e7f39d.chunk.css",
-    "main.js": "/TenziGame/static/js/main.8400146f.chunk.js",
-    "main.js.map": "/TenziGame/static/js/main.8400146f.chunk.js.map",
+    "main.css": "/TenziGame/static/css/main.a819645e.chunk.css",
+    "main.js": "/TenziGame/static/js/main.fb75dc8f.chunk.js",
+    "main.js.map": "/TenziGame/static/js/main.fb75dc8f.chunk.js.map",
     "runtime-main.js": "/TenziGame/static/js/runtime-main.b76e1bc0.js",
     "runtime-main.js.map": "/TenziGame/static/js/runtime-main.b76e1bc0.js.map",
-    "static/js/2.bcc40576.chunk.js": "/TenziGame/static/js/2.bcc40576.chunk.js",
-    "static/js/2.bcc40576.chunk.js.map": "/TenziGame/static/js/2.bcc40576.chunk.js.map",
+    "static/js/2.1e89c110.chunk.js": "/TenziGame/static/js/2.1e89c110.chunk.js",
+    "static/js/2.1e89c110.chunk.js.map": "/TenziGame/static/js/2.1e89c110.chunk.js.map",
     "index.html": "/TenziGame/index.html",
-    "static/css/main.47e7f39d.chunk.css.map": "/TenziGame/static/css/main.47e7f39d.chunk.css.map",
-    "static/js/2.bcc40576.chunk.js.LICENSE.txt": "/TenziGame/static/js/2.bcc40576.chunk.js.LICENSE.txt"
+    "static/css/main.a819645e.chunk.css.map": "/TenziGame/static/css/main.a819645e.chunk.css.map",
+    "static/js/2.1e89c110.chunk.js.LICENSE.txt": "/TenziGame/static/js/2.1e89c110.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b76e1bc0.js",
-    "static/js/2.bcc40576.chunk.js",
-    "static/css/main.47e7f39d.chunk.css",
-    "static/js/main.8400146f.chunk.js"
+    "static/js/2.1e89c110.chunk.js",
+    "static/css/main.a819645e.chunk.css",
+    "static/js/main.fb75dc8f.chunk.js"
   ]
 }
